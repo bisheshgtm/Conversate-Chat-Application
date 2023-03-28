@@ -1,0 +1,44 @@
+first we installed express 
+npm install express
+
+then devenv and nodemon
+
+then we setup the server.js file 
+
+then we created a react app
+
+to connect port of frontend to backend we used proxy in package.json file as "proxy": "http://localhost:1000"
+
+to run the server we used npm start 
+and added a script in package.json file as "start": "nodemon server.js"
+
+we installed react-router-dom and react-router in frontend to create routes for different pages
+command to install react-router-dom is npm i react-router-dom
+
+we also installed chakra-ui for styling the frontend
+command to install chakra-ui is npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
+
+we have to wrap whole app in browser router and then we can use routes in our app
+in index.js file we have to import browser router and wrap whole app in it
+import { BrowserRouter } from "react-router-dom";
+
+npm i axios to install axios 
+axios is used to make api calls to backend 
+eg if we want to fetch chat messages from backend we can use axios to fetch them
+
+we create a folder models to make schema for our database
+
+we also install mongoose to connect to mongodb database
+command to install mongoose is npm i mongoose
+then create schema for our database in models folder 
+
+now we will make design for our app 
+we will use chakra-ui for styling our app
+
+express async handler is used to handle async errors in express
+command to install express async handler is npm i express-async-handler
+
+install bcryptjs to hash passwords
+command to install bcryptjs is npm i bcryptjs
+
+for uploading use cloudify and for loading use chakra ui
